@@ -25,7 +25,11 @@ const Header = () => {
           {NEXT_PUBLIC_SITE_TITLE}
         </Link>
       </h1>
-
+      <Link href="/">
+        <img className="logo" width={'250px'} src="logo-text.svg" alt="" />
+        <img className="logo" width={'48px'} src="logo.svg" alt="" />
+      </Link>
+      
       <ul>
         {navItems.map(({ label, path }) => (
           <li key={label}>

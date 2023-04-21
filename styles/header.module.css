@@ -1,12 +1,12 @@
 .header {
-  display: block;
-  padding: 15px 0;
-  text-align: center;
+  display: flex;
+  padding: 16px 0;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
 }
 .header h1 {
-  padding: 0.5rem 0;
-  font-weight: 400;
-  color: #000;
+  display: none;
 }
 .header h1 a {
   color: inherit;
