@@ -12,15 +12,8 @@ import {
   getPosts,
 } from '../lib/notion/client'
 import {
-  BlogPostLink,
-  BlogTagLink,
-  NextPageLink,
-  NoContents,
   PostDate,
-  PostExcerpt,
   PostTags,
-  PostTitle,
-  ReadMoreLink,
 } from '../components/blog-parts'
 import {
   getBlogLink,
