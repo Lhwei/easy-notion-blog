@@ -95,7 +95,7 @@ const RootPage = async () => {
               <div className={`${styles.post} flex gap-8 relative`} key={post.Slug}>
                 <Link href={getBlogLink(post.Slug)}>
                   <img className='w-full h-full rounded-xl' src={`/api/og-image?slug=${post?.Slug}`} alt="" />
-                  <div className='absolute top-6 left-8'>
+                  <div className='absolute top-2 left-2 xl:top-6 xl:left-8'>
                     <PostDate post={post} />
                     <PostTags post={post} />
                     {/* <PostTitle post={post} /> */}
