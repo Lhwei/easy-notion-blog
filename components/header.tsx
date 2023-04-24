@@ -15,7 +15,7 @@ const Header = () => {
 
   const navItems: NavItem[] = [
     { label: 'Home', path: '/' },
-    { label: 'Side Project', path: '/blog' },
+    // { label: 'Side Project', path: '/blog' },
   ]
 
   return (
@@ -26,13 +26,13 @@ const Header = () => {
         </Link>
       </h1>
       <Link href="/">
-        <img className="logo" width={'250px'} src="logo-text.svg" alt="" />
-        <img className="logo" width={'48px'} src="logo.svg" alt="" />
+        <img className="logo hidden lg:block" width={'250px'} src="logo-text.svg" alt="" />
+        <img className="logo lg:hidden" width={'48px'} src="logo.svg" alt="" />
       </Link>
       
       <ul>
         {navItems.map(({ label, path }) => (
-          <li key={label}>
+          <li className="hover:bg-gray-100 p-2 rounded-xl" key={label}>
             <Link href={path} className={pathname === path ? 'active' : null}>
               {label}
             </Link>

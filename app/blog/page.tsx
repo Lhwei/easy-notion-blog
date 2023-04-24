@@ -75,6 +75,7 @@ const BlogPage = async () => {
           {posts.map(post => {
             return (
               <div className={styles.post} key={post.Slug}>
+                <img className='w-full h-full' src={`/api/og-image?slug=${post?.Slug}`} alt="" />
                 <PostDate post={post} />
                 <PostTags post={post} />
                 <PostTitle post={post} />

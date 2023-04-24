@@ -1,5 +1,5 @@
 .container {
-  width: 640px;
+  /* width: 640px; */
   max-width: 100%;
   margin: 0 auto;
 }
@@ -15,9 +15,4 @@
   margin: 0 0 14px;
   font-size: 1.4rem;
   font-weight: 400;
-}
-
-.container p {
-  margin: 0.3rem auto;
-  line-height: 2rem;
 }
