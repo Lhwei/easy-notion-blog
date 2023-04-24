@@ -86,7 +86,7 @@ const RootPage = async () => {
             <br />
             <span className='font-body text-xl'>UI Designer based in Taipei</span>
           </p>
-          <fieldset className="border-t border-gray-200">
+          <fieldset className="border-t border-gray-200 my-8">
             <legend className="mx-auto px-4 text-white text-2xl italic"><img className='w-8 mx-auto my-8' src="niji_5.png" alt="" /></legend>
           </fieldset>
           <div className='px-8 grid xl:grid-cols-2 gap-8'>
@@ -106,7 +106,7 @@ const RootPage = async () => {
             )
           })}
           </div>
-          <fieldset className="border-t border-gray-200 lg:hidden">
+          <fieldset className="border-t border-gray-200 lg:hidden my-8">
             <legend className="mx-auto px-4 text-white text-2xl italic"><img className='w-28 mx-auto my-8' src="niji_6.png" alt="" /></legend>
           </fieldset>
         </div>
