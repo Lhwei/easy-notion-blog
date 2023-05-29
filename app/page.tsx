@@ -77,7 +77,7 @@ const RootPage = async () => {
         </div>
         <div className='order-1 lg:order-2 col-span-5'>
           <p className='font-display font-bold text-center text-4xl mt-8'>
-            Hi, I am Winni
+            Hi, I am Winni 
             <br />
             <span className='font-body text-xl'>UIUX Designer based in Taipei</span>
           </p>
