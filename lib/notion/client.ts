@@ -805,6 +805,22 @@ function _buildPost(pageObject: responses.PageObject): Post {
       prop.Excerpt.rich_text.length > 0
         ? prop.Excerpt.rich_text[0].plain_text
         : '',
+    ProjectGoal:
+      prop.ProjectGoal.rich_text.length > 0
+      ? prop.ProjectGoal.rich_text[0].plain_text
+      : '',
+    RoleAndOutput:
+      prop.RoleAndOutput.rich_text.length > 0
+      ? prop.RoleAndOutput.rich_text[0].plain_text
+      : '',
+    Challenge:
+      prop.Challenge.rich_text.length > 0
+      ? prop.Challenge.rich_text[0].plain_text
+      : '',
+    Outcome:
+      prop.Outcome.rich_text.length > 0
+      ? prop.Outcome.rich_text[0].plain_text
+      : '',
     OGImage:
       prop.OGImage.files.length > 0 ? prop.OGImage.files[0].file.url : null,
     Rank: prop.Rank.number,

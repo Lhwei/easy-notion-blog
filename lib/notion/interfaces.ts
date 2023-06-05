@@ -5,6 +5,10 @@ export interface Post {
   Date: string
   Tags: SelectProperty[]
   Excerpt: string
+  ProjectGoal: string
+  RoleAndOutput: string
+  Challenge: string
+  Outcome: string
   OGImage: string
   Rank: number
 }

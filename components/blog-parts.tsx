@@ -56,6 +56,27 @@ export const PostExcerpt = ({ post }) => (
   </div>
 )
 
+export const PostGoal = ({ post }) => (
+  <div className={styles.postExcerpt}>
+    <p>{post.ProjectGoal ? post.ProjectGoal : ''}</p>
+  </div>
+)
+export const PostRoleAndOutput = ({ post }) => (
+  <div className={styles.postExcerpt}>
+    <p>{post.RoleAndOutput ? post.RoleAndOutput : ''}</p>
+  </div>
+)
+export const PostChallenge = ({ post }) => (
+  <div className={styles.postExcerpt}>
+    <p>{post.Challenge ? post.Challenge : ''}</p>
+  </div>
+)
+export const PostOutcome = ({ post }) => (
+  <div className={styles.postExcerpt}>
+    <p>{post.Outcome ? post.Outcome : ''}</p>
+  </div>
+)
+
 export const PostBody = ({ blocks }) => (
   <div className={styles.postBody}>
     <NotionBlocks blocks={blocks} isRoot={true} />
