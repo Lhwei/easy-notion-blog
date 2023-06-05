@@ -85,15 +85,15 @@ const RootPage = async () => {
             <br />
             <span className='font-body text-xl'>UIUX Designer based in Taipei</span>
           </p>
-          <ul className='flex justify-center gap-x-8 mt-8'>
+          <ul className='flex flex-col lg:flex-row justify-center gap-y-4 gap-x-8 mt-8'>
             <a className='bg-blue-200 px-4 py-2 rounded-3xl hover:bg-blue-100' href="/blog/tag/User%20Experience%20Design">
-              <li>UX Design | 使用者體驗設計</li>
+              <li className='text-center'>UX Design | 使用者體驗設計</li>
             </a>
             <a className='bg-purple-200 px-4 py-2 rounded-3xl hover:bg-purple-100' href="blog/tag/User%20Interface%20Design">
-              <li>UI Design | 使用者介面設計</li>
+              <li className='text-center'>UI Design | 使用者介面設計</li>
             </a>
             <a className='bg-green-200 px-4 py-2 rounded-3xl hover:bg-green-100' href="/blog/tag/Product%20Design">
-              <li>Product Design | 產品設計</li>
+              <li className='text-center'>Product Design | 產品設計</li>
             </a>
           </ul>
           <fieldset className="border-t border-gray-200 mt-4 mb-8">
