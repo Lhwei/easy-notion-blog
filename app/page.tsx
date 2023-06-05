@@ -17,8 +17,8 @@ import {
   PostTitle,
   PostGoal,
   PostRoleAndOutput,
-  PostChallenge,
-  PostOutcome,
+  // PostChallenge,
+  // PostOutcome,
 } from '../components/blog-parts'
 import {
   getBlogLink,
